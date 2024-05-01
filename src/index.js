@@ -300,6 +300,7 @@ function stopGame(){
 
 
 function startGame() {
+  clearScore();
   setDuration(10);
   setEventListeners(); // Add this line to call setEventListeners
   startTimer(); // Add this line to call startTimer
